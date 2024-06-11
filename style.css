@@ -1,19 +1,19 @@
 body{
-  font-family: Arial, sans-serif;
+  font-family: Noto Sans, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
+  background: #dddddd;
 }
 
 header{
-  background-color: #4caf50;
+  background-color: #808080;
   color: white;
   padding: 1em 0;
   text-align: center;
 }
 
 nav{
-  background-color: #333333;
+  background-color: #808080;
   overflow: hidden;
 }
 
@@ -29,6 +29,39 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #dddddd;
+  background-color: white;
   color: black;
+}
+
+.container{
+  padding: 20px;
+}
+
+.sessao{
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+footer{
+  background-color: #808080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
